@@ -119,4 +119,8 @@ function setUpSquares(){
       })
 
     }
+function exitTheGame(){
+      var random=Math.floor(Math.random()*numSquares);
+      return colors[random];	
+}
  }
